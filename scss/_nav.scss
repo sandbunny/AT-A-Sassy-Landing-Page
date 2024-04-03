@@ -1,0 +1,28 @@
+nav {
+    margin: 0 auto;;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    h1 {
+        color: white;
+        margin-right: 20px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    li {
+        padding: 1px;
+        font-size: large;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    li:last-child{
+        margin-right: 0; 
+    }
+   a {
+    color: white;
+   }
+}
